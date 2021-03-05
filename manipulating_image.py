@@ -20,7 +20,7 @@ def convert_images(file_name):
 
     im = Image.open(destination_file)
     # Rotate, resize, and save file as JPEG
-    new_im = im.rotate(90).resize((width, height)).convert("RGB")
+    new_im = im.rotate(270).resize((width, height)).convert("RGB")
     new_im.save("{}.jpeg".format(saved_file), "JPEG")
 
 

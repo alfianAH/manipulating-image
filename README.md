@@ -1,6 +1,6 @@
 # Manipulating Images
 
-Scale and convert images using PIL. 
+Scale and convert images using PIL.
 
 Images source: [images.zip](images.zip)
 
@@ -9,12 +9,12 @@ Images source: [images.zip](images.zip)
 2. Run the script
 
 ## Result
-<figure>
-    <img src="images\ic_add_location_black_48dp.jpeg" alt="Add Location White" title="Add Location White">
-    <figcaption>Add Location White</figcaption>
+<figure align="center">
+    <img src="markdown/ic_add_location_white_48dp.jpeg" alt="Add Location White" title="Add Location White">
+    <figcaption>Original Add Location White (192 x 192 px)</figcaption>
 </figure>
 
-<figure>
-    <img src="opt\icons\ic_add_location_white_48dp.jpeg" alt="Converted Add Location White" title="Add Location White">
-    <figcaption>Converted Add Location White</figcaption>
+<figure align="center">
+    <img src="markdown\converted_ic_add_location_white_48dp.jpeg" alt="Add Location White" title="Add Location White">
+    <figcaption>Scaled and Rotated Add Location White (128 x 128 px)</figcaption>
 </figure>
